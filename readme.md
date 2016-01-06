@@ -43,14 +43,26 @@ Recently updated and works well. Here are the over simplified steps to get up an
 4. Commit - type in a description and click on "Commit to master". This commits locally. 
 5. Create a Pull Request (PR) - tell a branch or your choice that you want to give them changes.
 
-For purposes of this project, go to the [github project](https://github.com/danielgeri/reap) and click on fork on the top right to your own account, then follow the steps above.
-
 ### AWS CLI (Optional)
 ### EB AWS CLI (Optional)
-## AWS Setup
+## AWS Setup (Skip if you don't care)
 ### CodeCommit
 We're not using this but here for informational purposes.
 ### Elastic Beanstalk
+## Getting REAP Up & Running
+1. Go to the [github project](https://github.com/danielgeri/reap) and click on fork on the top right to your own account, then follow the steps in the section "Thoughts on the github mac app". 
+2. Open up terminal and `cd` into the root of the location where you saved the forked version of reap. Type in `ls` to confirm and you should see a similar file structure:
+```
+bin/
+public/
+routes/
+views/
+app.js
+package.json
+readme.md
+```
+3. Once in the root, type in `npm install` (assuming you have npm installed based on the directions above)
+4. To run the application after the install, type in `npm start` and visit your browser at `localhost:3000`
 ## Other
 ### Markdown
 Markdown simplifies text markup. Anything ending in `.md` stands for markdown (e.g. this README). To learn about it, this is a [great tutorial](http://markdowntutorial.com/).
