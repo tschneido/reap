@@ -50,7 +50,7 @@ Recently updated and works well. Here are the over simplified steps to get up an
 We're not using this but here for informational purposes.
 ### Elastic Beanstalk
 ## Getting REAP Up & Running
-1. Go to the [github project](https://github.com/danielgeri/reap) and click on fork on the top right to your own account, then follow the steps in the section "Thoughts on the github mac app". 
+1. Go to the [github project](https://github.com/oaklandsystems/reap) and click on fork on the top right to your own account, then follow the steps in the section "Thoughts on the github mac app". 
 2. Open up terminal and `cd` into the root of the location where you saved the forked version of reap. Type in `ls` to confirm and you should see a similar file structure:
 ```
 bin/
